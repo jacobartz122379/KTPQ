@@ -1,0 +1,5 @@
+[deploy]
+
+[deploy.variables]
+RAILPACK_BUILD_APT_PACKAGES = "libcairo2-dev libpixman-1-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev"
+RAILPACK_DEPLOY_APT_PACKAGES = "libcairo2 libpixman-1-0 libpango-1.0-0 libpangocairo-1.0-0 libjpeg62-turbo libgif7 librsvg2-2"
